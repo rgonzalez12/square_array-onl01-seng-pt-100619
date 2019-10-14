@@ -9,3 +9,6 @@ def square_array(array)
 
   return results
 end
+
+def square_array(array)
+  array.each
