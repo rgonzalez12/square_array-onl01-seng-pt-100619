@@ -1,7 +1,11 @@
 def square_array(array)
-  array = []
-  array.each do |numbers| 
-  array << x ** 
-  array 
- end
+  counter = 0
+  results = []
+  
+  while array[counter]
+    results[counter] = array[counter]**2
+    counter += 1
+  end
+
+  return results
 end
