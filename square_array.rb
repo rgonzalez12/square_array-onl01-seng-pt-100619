@@ -3,7 +3,7 @@ def square_array(array)
   results = []
   
   while array.each[counter]
-    results.each[counter] = array.each[counter]**2
+    results[counter] = array[counter]**2
     counter += 1
   end
 
